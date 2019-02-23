@@ -6,7 +6,7 @@ int doubleArray(int a[], int n, int length, int k, int dem) {
 	int h = 0;//số index của mảng thực a 
 	// sử dụng đệ quy cho đến khi mảng cuối cùng tạo ra được lập thì dừng -> n=0
 	if (n == 0) {
-		return a[k + 1];
+		return a[k - 1];
 	}
 	else {
 		for (i = 0; i <= length - 1; i++) { // vòng for để chép lại mảng nếu thực a vào mảng ảo b phần tử ở giữa sẽ bằng phần tử lớn nhất trong a + 1

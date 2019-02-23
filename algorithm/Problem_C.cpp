@@ -21,7 +21,7 @@ int main()
 {
     int a[100],n=0,k=0,vitri=0;
     a[0]=1;
-    cout<<"nhap n va k : "
+    cout<<"nhap n va k : ";
     cin>>n;
     cin>>k;
     vitri=doubleArray(a,n-1,1,k);
